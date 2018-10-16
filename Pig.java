@@ -6,10 +6,6 @@ class Pig implements Animal
     	myType = type;
     	mySound = sound;
     }
-    public Pig(){
-    	myType = "unknown";
-    	mySound = "unknown";
-    }
     public String getSound(){
     	return mySound;
     }
